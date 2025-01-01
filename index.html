@@ -1,1 +1,174 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>Ethan Levine</h1>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <div id="profile">
+        <div>
+            <img width="300" src="images/headshot.png" />
+        </div>
+        <div class="info">
+            <h2>Ethan Levine</h2>
+            <p>
+                Computer engineering student at Boston University. Interested in back-end development and software engineering.
+            </p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/ethan-levine43/" target="_blank">
+                    <img id="linkedin-img" src="images/linkedin.png" alt="LinkedIn" />
+                </a>
+                <a href="https://github.com/EthanL3" target="_blank">
+                    <img id="github-img" src="images/github.png" alt="GitHub" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="education">
+        <h2 class="section-title">Education:</h2>
+        <div class="container">
+            <h3>Boston University</h2>
+            <h4>Expected Graduation: May 2026</h4>
+            <h4>B.S. Computer Engineering</h4>
+            <h4>GPA: 3.78</h4>
+            <h4><b>Relevant Coursework:</b> Operating Systems, Applied Algorithms, 
+                Software Engineering, Computer Networking, Computer Architecture, 
+                Intro to Machine Learning, Software Engineering Principles
+            </h4>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="section-title">Skills:</h2>
+        <div id="skill-icons">
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+            </div>
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg" />   
+            </div>
+            <div>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />       
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" />         
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" />         
+            </div>
+        </div>
+    </div>
+
+    <div id="experience">
+      <h2 class="section-title">Experiences:</h2>
+      <div class="container">
+        <h3>PEACLab Research Group</h3>
+        <h4>Undergraduate Researcher</h4>
+        <p class="date">May 2024 - Present</p>
+        <ul>
+          <li>
+            Refactored and rebuilt PeacLab's Python-based data center simulator, used to test and optimize power-matching algorithms for high performance computing
+          </li>
+          <li>
+            Improved runtime by over 1100% by utilizing Numpy's parallelization capabilities
+          </li>
+          <li>
+            Implemented a modular software architecture and added extensive testing, creating code that is easily maintainable, testable, and expanded upon
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h3>Hack4Impact Club</h3>
+        <h4>Junior Deveopment Team Lead</h4>
+        <p class="date">Jan 2024 - Dec 2024</p>
+        <ul>
+          <li>
+            Led weekly workshops on core web development technologies, including HTML, CSS, JavaScript, and React
+          </li>
+          <li>
+            Designed and built demo websites to show club members how to put the skills taught each week into practice
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <h3>BU Department of Electrical and Computer Engineering</h3>
+        <h4>Lab Assistant, Intro to Software Engineering</h4>
+        <p class="date">Sep 2024 - Dec 2024</p>
+        <ul>
+          <li>
+            Created solution keys for homework and lab assignments in C++, managed and organized class GitLab
+          </li>
+          <li>
+            Presented weekly topics during lab sessions and assisted students with homework and lab assignments 
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-row">
+            <div class="container">
+                <h3>Operating Systems C Libraries</h3>
+                <i>C, Linux</i>
+                <img width="100%" src="images/myshell.png"/>
+                <h4>
+                    Wrote C libraries for implementations of Linux shell, threading library, 
+                    thread local storage, and file system. FAT file system has 8192 storage blocks of 4KB each,
+                    capable of storing up to 24MB on a virtual disk.
+                </h4>
+                <a target="_blank" href="https://github.com/EthanL3/c-library">GitHub</a>
+            </div>
+            <div class="container">
+                <h3>Mock Investor</h3>
+                <i>Java, XML, Android Studio</i>
+                <img width="100%" src="images/mock3.png"/>
+                <h4>
+                    Created Android application that allows users to simulate 
+                    buying and selling stocks in a virtual trading environment.
+                    Live charts and financial statistics are displayed for any stock
+                    a user owns, and user portfolio is able to be saved locally.
+                </h4>
+                <a target="_blank" href="https://github.com/EthanL3/mock_investor">GitHub</a>
+            </div>
+        </div>
+        <div class="projects-row">
+            <div class="container">
+                <h3>SymptoCare</h3>
+                <i>HTML, CSS, JavaScript, Python, Flask</i>
+                <img width="100%" src="images/sympto.png"/>
+                <h4>
+                    Created web app to provide rudimentary diagnosis for common 
+                    illnesses based on user-inputted symptoms. Implemented front-end (HTML/CSS) for Flask application. 
+                    Collaborated with 3 others, awarded first place overall at 2024 Civic Tech Hackathon.
+                </h4>
+                <a target="_blank" href="https://devpost.com/software/symptocare">Devpost</a>
+            </div>
+            <div class="container">
+                <h3>FPGA Keyboard Synthesizer</h3>
+                <i>Verilog, Xilinx Vivado, FPGA</i>
+                <img width="100%" src="images/keyboard.png"/>
+                <h4>
+                    Programmed Artix-7 FPGA to function as a keyboard synthesizer, able to play different notes and octaves.
+                    Converted digital square waves to sinusoidal waves using pulse-width modulation methods, allowing toggling between which type of wave is played.
+                </h4>
+                <a target="_blank" href="https://github.com/AlexHack1/EC311-Final-Project">GitHub</a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
