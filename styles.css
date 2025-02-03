@@ -155,12 +155,13 @@ html {
 }
 
 #projects .container {
-    background-color:#f5f5f5;
+    background-color:#ffffff;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     flex: 1;
     border: 1px solid #ddd;
+    margin-bottom: 3rem;
 }
 
 #projects i {
@@ -169,7 +170,7 @@ html {
 
 .projects-row {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 #projects a {
